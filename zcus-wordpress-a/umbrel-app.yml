@@ -2,6 +2,7 @@ manifestVersion: 1
 id: zcus-wordpress-a
 name: WordPress
 version: "6.8.3"
+category: developer
 port: 8191
 description: "WordPress A"
 developer: "sk"
