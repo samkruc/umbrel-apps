@@ -15,7 +15,7 @@ services:
       - WORDPRESS_DB_NAME=wordpress
       - WORDPRESS_DB_USER=umbrel
       - WORDPRESS_DB_PASSWORD=umbrelwordpress
-      - WORDPRESS_TABLE_PREFIX: wpa_
+      - WORDPRESS_TABLE_PREFIX=wpa_
     volumes:
       - ${APP_DATA_DIR}/data/wordpress:/var/www/html
     restart: on-failure
