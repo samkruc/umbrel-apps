@@ -3,7 +3,7 @@ id: zcus-mariadb
 name: MariaDB
 version: "11.4"
 port: 3306
-description: "Gemeinsame MariaDB für mehrere Apps"
+description: "MariaDB für mehrere Apps"
 developer: "sk"
 dependencies: []
 repo: "https://github.com/samkruc/umbrel-apps/zcus-mariadb"
