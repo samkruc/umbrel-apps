@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: zcus-wordpress-a
-name: WordPress
+name: WordPress A
 version: "6.8.3"
 category: developer
 port: 8191
