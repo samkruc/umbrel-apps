@@ -4,10 +4,11 @@ name: MariaDB
 version: "11.4"
 port: 3306
 description: "MariaDB für mehrere Apps"
-developer: "sk"
-dependencies: []
+developer: SK
 repo: "https://github.com/samkruc/umbrel-apps/zcus-mariadb"
 support: ""
 gallery: []
+dependencies: []
+path: ""
 defaultUsername: ""
 defaultPassword: ""
