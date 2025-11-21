@@ -2,6 +2,7 @@ manifestVersion: 1
 id: zcus-mariadb
 name: MariaDB
 version: "11.4"
+category: developer
 port: 3306
 description: "MariaDB für mehrere Apps"
 developer: SK
