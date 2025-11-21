@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  db:
+    image: mariadb:11.8
+    user: "1000:1000"
+    environment:
+      - MYSQL_ROOT_PASSWORD=umbrelwordpressroot
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=umbrel
+      - MYSQL_PASSWORD=umbrelwordpress
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/var/lib/mysql
+    networks:
+      default:
+        aliases:
+          - wpmariadb
+    restart: on-failure
