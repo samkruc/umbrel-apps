@@ -9,6 +9,5 @@ dependencies: []
 repo: "https://github.com/samkruc/umbrel-apps/zcus-mariadb"
 support: ""
 gallery: []
-path: ""
 defaultUsername: ""
 defaultPassword: ""
