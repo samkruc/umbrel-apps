@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: zcus-phpmyadmin
 name: phpMyAdmin
-version: "5.2.3"
+version: "5.2.3a"
 category: developer
 port: 8193
 description: "phpMyAdmin"
