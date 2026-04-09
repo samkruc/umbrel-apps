@@ -1,0 +1,14 @@
+manifestVersion: 1
+id: zcus-phpmyadmin
+name: phpMyAdmin
+version: "5.2.3"
+category: developer
+port: 80
+description: "phpMyAdmin"
+developer: "sk"
+dependencies: []
+repo: "https://github.com/samkruc/umbrel-apps/zcus-phpmyadmin"
+support: ""
+gallery: []
+defaultUsername: ""
+defaultPassword: ""
