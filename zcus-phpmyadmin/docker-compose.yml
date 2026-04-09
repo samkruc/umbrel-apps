@@ -9,6 +9,7 @@ services:
   web:
     image: phpmyadmin:latest
     restart: unless-stopped
+    stop_grace_period: 1m
 
     environment:
       PMA_HOST: "wpmariadb"
