@@ -8,15 +8,12 @@ services:
 
   web:
     image: phpmyadmin:latest
-    container_name: phpmyadmin_web
     restart: unless-stopped
 
     environment:
       PMA_HOST: "wpmariadb"
       PMA_PORT: "3306"
-
       PMA_USER: "umbrel"
       PMA_PASSWORD: "umbrelwordpress"
-
       MEMORY_LIMIT: 512M
       UPLOAD_LIMIT: 256M
