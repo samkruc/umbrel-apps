@@ -3,7 +3,7 @@ id: zcus-phpmyadmin
 name: phpMyAdmin
 version: "5.2.3"
 category: developer
-port: 80
+port: 8193
 description: "phpMyAdmin"
 developer: "sk"
 dependencies: []
