@@ -2,6 +2,8 @@ services:
   strfry:
     image: dockurr/strfry:latest
     user: '1000:1000'
+    ports:
+      - '7777:7777'
     volumes:
       - ${APP_DATA_DIR}/data/db:/app/strfry-db
       - ${APP_DATA_DIR}/data/strfry.conf:/etc/strfry.conf:ro
