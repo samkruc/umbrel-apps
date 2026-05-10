@@ -1,0 +1,14 @@
+manifestVersion: 1
+id: zcus-strfry
+name: strfry
+version: "1.1.0"
+category: developer
+port: 7777
+description: "strfry"
+developer: "sk"
+dependencies: []
+repo: "https://github.com/samkruc/umbrel-apps/zcus-strfry"
+support: ""
+gallery: []
+defaultUsername: ""
+defaultPassword: ""
