@@ -1,11 +1,11 @@
 services:
   strfry:
-    image: dockurr/strfry
-    container_name: strfry
-    ports:
-      - 7777:7777
+    image: dockurr/strfry:latest
+    user: '1000:1000'
     volumes:
-      - ./strfry-db:/app/strfry-db
-      - ./strfry.conf:/etc/strfry.conf
-    restart: always
+      - ${APP_DATA_DIR}/data/db:/app/strfry-db
+      - ${APP_DATA_DIR}/data/strfry.conf:/etc/strfry.conf:ro
+      - ${APP_DATA_DIR}/data/policy:/policy:ro
+    restart: unless-stopped
     stop_grace_period: 2m
+    container_name: zcus-strfry_1
