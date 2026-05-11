@@ -1,6 +1,9 @@
 services:
   strfry:
-    image: dockurr/strfry:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: local/strfry-node:latest
     user: '1000:1000'
     ports:
       - '7777:7777'
